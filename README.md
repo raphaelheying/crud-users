@@ -1,6 +1,6 @@
-# Short Url - RPHE
+# Crud de Usuários
 
-## Table of Contents
+## Sumário
 
 - [Visão geral](#visao-geral)
 - [Feito com](#feito-com)
@@ -10,7 +10,7 @@
 
 ## Visão geral
 
-Esse projeto é uma aplicação web para gerenciar usuários.
+Aplicação web simples para gerenciamento de usuários, com funcionalidades básicas de CRUD, permitindo a criação, visualização, edição e exclusão de usuários.
 
 ### Feito com
 
@@ -29,6 +29,8 @@ Esse projeto é uma aplicação web para gerenciar usuários.
 `composer install` => instalar as dependências PHP
 
 `npm install` => instalar as dependências JS
+
+`touch database/database.sqlite` => preparar o banco de dados local
 
 `php artisan migrate` => rodar as migrações do banco de dados
 
